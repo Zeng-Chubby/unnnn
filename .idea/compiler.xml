@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="unnnn-application" />
+        <module name="unnnn-domain" />
+        <module name="unnnn-domain-event" />
+        <module name="unnnn-interface" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="unnnn-application" target="1.5" />
+      <module name="unnnn-domain" target="1.5" />
+      <module name="unnnn-domain-event" target="1.5" />
+      <module name="unnnn-interface" target="1.5" />
       <module name="unnnn-parent" target="1.5" />
       <module name="unnnn-web" target="1.7" />
     </bytecodeTargetLevel>
