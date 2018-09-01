@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/unnnn-application/unnnn-application.iml" filepath="$PROJECT_DIR$/unnnn-application/unnnn-application.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnnn-domain/unnnn-domain.iml" filepath="$PROJECT_DIR$/unnnn-domain/unnnn-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnnn-domain-event/unnnn-domain-event.iml" filepath="$PROJECT_DIR$/unnnn-domain-event/unnnn-domain-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unnnn-infrastructure/unnnn-infrastructure.iml" filepath="$PROJECT_DIR$/unnnn-infrastructure/unnnn-infrastructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnnn-interface/unnnn-interface.iml" filepath="$PROJECT_DIR$/unnnn-interface/unnnn-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnnn-parent.iml" filepath="$PROJECT_DIR$/unnnn-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/unnnn-web/unnnn-web.iml" filepath="$PROJECT_DIR$/unnnn-web/unnnn-web.iml" />

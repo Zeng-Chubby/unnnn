@@ -9,16 +9,18 @@
         <module name="unnnn-application" />
         <module name="unnnn-domain" />
         <module name="unnnn-domain-event" />
+        <module name="unnnn-infrastructure" />
         <module name="unnnn-interface" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="unnnn-application" target="1.5" />
       <module name="unnnn-domain" target="1.5" />
       <module name="unnnn-domain-event" target="1.5" />
+      <module name="unnnn-infrastructure" target="1.5" />
       <module name="unnnn-interface" target="1.5" />
       <module name="unnnn-parent" target="1.5" />
-      <module name="unnnn-web" target="1.7" />
+      <module name="unnnn-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

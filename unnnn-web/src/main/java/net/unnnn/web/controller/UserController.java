@@ -1,26 +1,26 @@
 package net.unnnn.web.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import net.unnnn.infrastructure.pojo.RequestInstruction;
+import net.unnnn.infrastructure.pojo.ResponseInstruction;
+import net.unnnn.instructions.LoginParamter;
+import net.unnnn.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author lx
  */
-@Controller
+@RestController
 @RequestMapping(value = "/user")
 public class UserController
 {
-	@RequestMapping(value = "/info", method = RequestMethod.GET)
-	public String getUser()
-	{
-		return "index";
-	}
+	@Autowired
+	private UserService service;
 
-	@RequestMapping(value = "/info1", method = RequestMethod.GET)
-	public Object getUser1()
+	@ResponseBody
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public ResponseInstruction login(@RequestBody RequestInstruction<LoginParamter> request)
 	{
-		return "index";
+		return service.login(request);
 	}
 }
