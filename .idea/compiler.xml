@@ -11,6 +11,7 @@
         <module name="unnnn-domain-event" />
         <module name="unnnn-infrastructure" />
         <module name="unnnn-interface" />
+        <module name="unnnn-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

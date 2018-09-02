@@ -7,7 +7,7 @@ import net.unnnn.instructions.UserInfoObject;
 import net.unnnn.service.UserService;
 import org.springframework.stereotype.Service;
 
-@Service("UserService")
+@Service
 public class UserServiceImpl implements UserService
 {
 	public ResponseInstruction<UserInfoObject> login(RequestInstruction<LoginParamter> request)

@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="net.unnnn.web.api">
+  <artifact type="ear" name="net.unnnn.web.api">
     <output-path>$PROJECT_DIR$/classes/artifacts/net_unnnn_web_api</output-path>
-    <root id="root">
+    <root id="archive" name="net.unnnn.web.api.war">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="unnnn-web" />

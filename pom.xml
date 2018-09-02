@@ -8,6 +8,9 @@
     <artifactId>unnnn-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <modules>
         <module>unnnn-web</module>
         <module>unnnn-interface</module>
@@ -39,4 +42,23 @@
             <version>2.9.5</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <hostName>api.unnnn.net</hostName>
+                    <url>http://tomcat.unnnn.net/manager/text</url>
+                    <username>root</username>
+                    <password>123456</password>
+                    <path>/</path>
+                    <staticContextPath></staticContextPath>
+                    <charset>utf8</charset>
+                    <update>true</update>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
