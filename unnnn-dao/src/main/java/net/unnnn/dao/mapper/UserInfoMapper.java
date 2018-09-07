@@ -1,4 +1,4 @@
-package net.unnnn.domain.repositories;
+package net.unnnn.dao.mapper;
 
 import net.unnnn.domain.UserInfo;
 

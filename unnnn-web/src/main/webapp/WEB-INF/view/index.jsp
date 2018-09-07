@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
-    <title>newlife</title>
+    <title>小可爱</title>
     <link href="/static/css/app.9ebe3c36350c477d37e72ab82abcad69.css" rel="stylesheet">
 </head>
 <body>
